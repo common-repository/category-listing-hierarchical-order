@@ -1,0 +1,21 @@
+.order-list-for-catlist{
+    font-weight: bolder !important;
+	text-transform: capitalize !important;
+}
+.order-list-for-cat .cat-item {
+    margin-top: 2.5% !important;
+    margin-left: 5% !important;
+    list-style: square !important;
+    font-weight: normal;
+	text-transform: capitalize !important;
+}
+.order-list-for-cat .children li{
+    font-weight: lighter;
+	list-style: circle !important;
+	text-transform: capitalize !important;
+}
+@media (max-width: 767px) {
+    .order-list-for-cat .cat-item{
+        margin-left: 10% !important;
+    }
+}
